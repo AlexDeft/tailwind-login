@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-200 dark:bg-slate-800 h-screen w-screen flex items-center justify-center ">
+  <main class="w-3/5 shadow-lg sm:w-4/5 max-md:h-2/5 lg:max-w-lg xl:max-w-xl" >
+    <h1 class="font-bold text-center font text-2xl mb-5 dark:text-slate-400" >Bem-vindo novamente!</h1>
+    <section class=" w-full h-full p-5  rounded-lg bg-white dark:bg-slate-600" >
+      <div class="text-center" >
+        <p class="mb-4 dark:text-white text-lg">Faça seu login</p>
+      </div>
+        <form action="cadastro.php" method="post" autocomplete="on" class="space-y-3 max-md:space-y-6 max-md:mt-10">
+          <div>
+            <label for="email" class="block pb-1 font-medium dark:text-white ">E-mail</label>
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="Insira seu e-mail" class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white">
+          </div>
+          <div>
+            <label for="senha" class="block pb-1 font-medium dark:text-white">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Insira sua senha" autocomplete="current-password" class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white ">
+          </div>
+          <div class="relative">
+            <a href="esqueceuasenha.php" target="_blank" rel="noopener noreferrer" class=" absolute top-0 right-0 h-5 w-200 mt-1 text-white max-md:-top-4 -" >Esqueci minha senha</a>
+          </div>
+          <div>
+            <input type="submit" value="entrar" class="bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700  text-white h-9 rounded-sm w-full uppercase text-sm cursor-pointer mt-10 max-md:mt-8 ">
+
+          </div>
+
+          </button>
+          
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
