@@ -15,11 +15,11 @@
         <form action="cadastro.php" method="post" autocomplete="on" class="space-y-3 max-md:space-y-6 max-md:mt-10">
           <div>
             <label for="email" class="block pb-1 font-medium dark:text-white ">E-mail</label>
-            <input type="email" name="email" id="email" autocomplete="email" placeholder="Insira seu e-mail" class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white">
+            <input type="email" name="email" id="email" autocomplete="email" placeholder=" Insira seu e-mail" required class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white placeholder:pl-1">
           </div>
           <div>
             <label for="senha" class="block pb-1 font-medium dark:text-white">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Insira sua senha" autocomplete="current-password" class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white ">
+            <input type="password" name="senha" id="senha" placeholder =" Insira sua senha" autocomplete="current-password" required minlength="8" class="w-full border rounded-md border-gray-300 h-9 dark:bg-slate-400 dark:focus-within:bg-white placeholder:pl-1">
           </div>
           <div class="relative">
             <a href="esqueceuasenha.php" target="_blank" rel="noopener noreferrer" class=" absolute top-0 right-0 h-5 w-200 mt-1 text-white max-md:-top-4 -" >Esqueci minha senha</a>

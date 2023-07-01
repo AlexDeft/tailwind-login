@@ -554,6 +554,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -652,8 +656,16 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.indent-5 {
+  text-indent: 1.25rem;
 }
 
 .text-2xl {
@@ -694,9 +706,29 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.placeholder\:pl-1::-moz-placeholder {
+  padding-left: 0.25rem;
+}
+
+.placeholder\:pl-1::placeholder {
+  padding-left: 0.25rem;
+}
+
+.placeholder\:pl-6::-moz-placeholder {
+  padding-left: 1.5rem;
+}
+
+.placeholder\:pl-6::placeholder {
+  padding-left: 1.5rem;
+}
+
 .hover\:bg-blue-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.focus\:pl-5:focus {
+  padding-left: 1.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
